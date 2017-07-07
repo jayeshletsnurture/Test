@@ -1,0 +1,47 @@
+PODS:
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.1.1):
+    - GoogleMaps (= 2.1.1)
+    - GooglePlaces (= 2.1.1)
+  - GooglePlaces (2.1.1):
+    - GoogleMaps/Base (= 2.1.1)
+  - ObjectMapper (2.2.2)
+  - UberRides (0.5.2):
+    - ObjectMapper (~> 2.0)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - ObjectMapper (~> 2.2.2)
+  - UberRides (from `https://github.com/long/rides-ios-sdk.git`, branch `swift-3-dev`)
+  - XCGLogger
+
+EXTERNAL SOURCES:
+  UberRides:
+    :branch: swift-3-dev
+    :git: https://github.com/long/rides-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  UberRides:
+    :commit: 7ba4b33fe464de3520bccbb8eb35cb4015363130
+    :git: https://github.com/long/rides-ios-sdk.git
+
+SPEC CHECKSUMS:
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GooglePlacePicker: 665f39f931f2df32f9dd3fcc45f7e8abf71e535c
+  GooglePlaces: 35636d86e5020cba3856eb988c09a5491de0a65a
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  UberRides: 96eb232374a6e8e616c20fdba83c2643a6ad08dc
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
+
+PODFILE CHECKSUM: b1f3994c40bc01192df8a312df123acc55baaaeb
+
+COCOAPODS: 1.2.0
